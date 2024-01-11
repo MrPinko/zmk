@@ -12,6 +12,9 @@
 #if IS_ENABLED(CONFIG_ZMK_WIDGET_BONGO_CAT)
 #include <zmk/display/widgets/bongo_cat.h>
 #endif
+#if IS_ENABLED(CONFIG_ZMK_WIDGET_MEGUMIN)
+#include <zmk/display/widgets/megumin.h>
+#endif
 #include <zmk/display/status_screen.h>
 
 #include <zephyr/logging/log.h>
